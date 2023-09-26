@@ -13,8 +13,21 @@ body {
 /* 상단 */
 #top{
     width:1000px;
-    height:200px;
+    height:140px;
     background-color: orange;
+}
+
+/* 상단-상단 */
+#top_top{
+    width:100%;
+    height:100px;
+}
+
+/* 상단-하단 (메인메뉴) */
+#top_bot{
+    width:100%;
+    height:40px;
+    background-color: red;
 }
 
 /* 하단 */
