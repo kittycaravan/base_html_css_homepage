@@ -2,28 +2,37 @@ body {
     background-color: pink;
 }
 
+/* 전체 박스 영역 */
 #box{
     width:1000px;
     height:800px;
     background-color: red;
-    margin: auto;
+    margin: auto;   /* 센터로 오게 */
 }
+
+/* 상단 */
 #top{
     width:1000px;
     height:200px;
     background-color: orange;
 }
+
+/* 하단 */
 #bot{
     width:1000px;
     height:600px;
     background-color: yellow;
     display: flex;
 }
+
+/* 하단_왼쪽 */
 #bot_left{
     width:200px;
     height:600px;
     background-color: green;
 }
+
+/* 하단_오른쪽 */
 #bot_right{
     width:800px;
     height:600px;
