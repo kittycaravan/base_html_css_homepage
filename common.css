@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+#box{
+    width:1000px;
+    height:800px;
+    background-color: red;
+    margin: auto;
+}
+#top{
+    width:1000px;
+    height:200px;
+    background-color: orange;
+}
+#bot{
+    width:1000px;
+    height:600px;
+    background-color: yellow;
+    display: flex;
+}
+#bot_left{
+    width:200px;
+    height:600px;
+    background-color: green;
+}
+#bot_right{
+    width:800px;
+    height:600px;
+    background-color: blue;
+}
